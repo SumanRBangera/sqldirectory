@@ -1,0 +1,9 @@
+create table test(usn integer primary key,name varchar(10),phno integer,branch varchar(10));
+ insert into test values(10,'suman',789456,'cse'); 
+ insert into test values(11,'karthik',123456,'ise');
+  insert into test values(12,'nan',753159,'ece'); 
+ insert into test values(14,'man',3456,'me');  
+ insert into test values(15,'sam',8524,'cse');     
+
+
+select * from test where branch='cse';
